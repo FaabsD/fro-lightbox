@@ -10,4 +10,5 @@ Link toegevoegd naar live versie van resultaat tot nu toe.
 
 
 
-## http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.3/fro/lightbox/
+## Link: 
+http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode1.3/fro/lightbox/
