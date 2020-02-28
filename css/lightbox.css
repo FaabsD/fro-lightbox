@@ -28,6 +28,23 @@ main img{
     object-position: center;
 
 }
+.thumbnail{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr; */
+    align-items: center;
+}
+.thumbnail img, .thumbnail p{
+    grid-column: 1;
+    grid-row: 1;
+}
+.thumbnail p{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 0 4px #000000;
+}
 .validatie img {
     height: 1em;
     width: auto;
