@@ -5,6 +5,8 @@ Videos's 1-4 helemaal gevolgd. Heb nu het begin van het script en de thumbnails 
 Stijl voor thumbnails toegevoegd en thumbnail paragrafen voorzien van stijl en schaduw
 #### update 12:23 uur
 Link toegevoegd naar live versie van resultaat tot nu toe.
+### 3-3-2020
+
 
 
 
