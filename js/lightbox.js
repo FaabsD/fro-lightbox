@@ -9,8 +9,16 @@ for(let i=0; i<alleInformatie.length; i++){
 
 function makeModal(num) {
     console.log(inhoud[num]);
+    // Maak een modal venster
     let modalWindow = document.createElement('div');
-    modalWindow.className = 'modalwindow';
+    modalWindow.className = 'modal-window';
+    // maak een container voor de inhoud van het modal venster
+    let modalContent = document.createElement('div');
+    modalContent.className = 'modal-content';
+    modalContent.innerHTML = inhoud[num].innerHTML;
+    // Wijs de modal container toe aan het modal venster
+    modalWindow.append(modalContent);
+    // wijs het modaal venster toe aan de body
     document.body.append(modalWindow);
 }
 
