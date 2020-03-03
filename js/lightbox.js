@@ -9,6 +9,9 @@ for(let i=0; i<alleInformatie.length; i++){
 
 function makeModal(num) {
     console.log(inhoud[num]);
+    let modalWindow = document.createElement('div');
+    modalWindow.className = 'modalwindow';
+    document.body.append(modalWindow);
 }
 
 for (let i=0; i<alleThumbnails.length; i++) {
