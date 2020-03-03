@@ -58,7 +58,7 @@ main img {
 
 /* Opmaak voor modaal venster */
 .modal-window {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
@@ -71,7 +71,10 @@ main img {
 .modal-content{
     background-color: #ffffff;
     max-width: 70vh;
+    max-height: 80vh;
     padding: 2em;
+    overflow: auto;
+
 }
 .validatie img {
     height: 1em;
