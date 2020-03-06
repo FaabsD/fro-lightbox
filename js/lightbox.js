@@ -31,6 +31,7 @@ function makeModal(num) {
     modalContent.addEventListener('click', function(e){
         e.stopPropagation();
     });
+    gsap.to(modalContent, {marginTop:0, duration: 1, ease: "elastic.out(1, 0.3)"});
     modalContent.prepend(closeBtn);
     // Wijs de modal container toe aan het modal venster
     modalWindow.append(modalContent);
