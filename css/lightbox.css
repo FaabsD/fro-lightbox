@@ -83,6 +83,7 @@ main img {
     max-height: 80vh;
     padding: 2em;
     overflow: auto;
+    animation: schuif-binnen 2s cubic-bezier(.86, .01, .18, 1.03) forwards;
 
 }
 .validatie img {
@@ -92,3 +93,7 @@ main img {
     margin: 0 .3em;
     cursor: pointer;
 }
+    @keyframes schuif-binnen {
+        0%{margin-top: 100vh;}
+        100%{margin-top: 0;}
+    }
