@@ -7,6 +7,8 @@ Stijl voor thumbnails toegevoegd en thumbnail paragrafen voorzien van stijl en s
 Link toegevoegd naar live versie van resultaat tot nu toe.
 ### 3-3-2020
 Heb nu een werkend modal venster die sluit als je ernaast klikt, De inhoud die teveel is voor de container kan worden doorgescrold.
+### 6-3-2020
+Modaal venster helemaal uitgewerkt.
 
 
 
