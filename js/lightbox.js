@@ -23,7 +23,7 @@ function makeModal(num) {
     closeBtn.className = 'close-button';
     closeBtn.innerHTML = '&#8855;';
     //voeg een eventlistener toe aan de sluitknop
-    closeBtn.addEventListener('click', deleteModal):
+    closeBtn.addEventListener('click', deleteModal);
     // maak een container voor de inhoud van het modal venster
     let modalContent = document.createElement('div');
     modalContent.className = 'modal-content';
