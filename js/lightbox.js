@@ -18,13 +18,20 @@ function makeModal(num) {
     modalWindow.className = 'modal-window';
     modalWindow.id = 'modal-window';
     modalWindow.addEventListener('click', deleteModal);
+    // maak een sluitknop
+    let closeBtn = document.createElement('span');
+    closeBtn.className = 'close-button';
+    closeBtn.innerHTML = '&#8855;';
+    //voeg een eventlistener toe aan de sluitknop
+    closeBtn.addEventListener('click', deleteModal);
     // maak een container voor de inhoud van het modal venster
     let modalContent = document.createElement('div');
     modalContent.className = 'modal-content';
     modalContent.innerHTML = inhoud[num].innerHTML;
     modalContent.addEventListener('click', function(e){
         e.stopPropagation();
-    })
+    });
+    modalContent.prepend(closeBtn);
     // Wijs de modal container toe aan het modal venster
     modalWindow.append(modalContent);
     // wijs het modaal venster toe aan de body

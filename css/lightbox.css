@@ -68,6 +68,15 @@ main img {
     align-items: center;
     justify-content: center;
 }
+.close-button{
+    float: right;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+.close-button:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
 .modal-content{
     background-color: #ffffff;
     max-width: 70vh;
